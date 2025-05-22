@@ -1,0 +1,10 @@
+title: Mon Site Jekyll
+description: Un site simple avec LaTeX
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+kramdown:
+  math_engine: mathjax
