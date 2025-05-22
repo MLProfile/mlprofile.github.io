@@ -1,6 +1,6 @@
 ---
-layout: default
 title: À propos
 ---
 
-Ce site est généré avec Jekyll, hébergé sur GitHub Pages, et utilise LaTeX via MathJax.
+Ce projet de recherche est mené à l’université ABC par l’équipe XYZ.  
+Il explore les dynamiques entre A, B et C.
