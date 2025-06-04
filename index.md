@@ -1,7 +1,5 @@
 ---
 title: Welcome
-
-Website of the PROFIL project funded by the ANR
 ---
 
 # Overview of the project
