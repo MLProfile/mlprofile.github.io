@@ -1,10 +1,13 @@
 title: MLProfile
 description: Description du site
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/slate@v0.2.0
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+plugins:
+  - jekyll-remote-theme
 
 include:
   - _includes/head-custom.html
