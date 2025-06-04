@@ -1,6 +1,6 @@
 title: MLProfile
 description: Description du site
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
 markdown: kramdown
 kramdown:
