@@ -1,0 +1,281 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor DataScientist as DS
+actor KnowledgeMaintainer as KM
+
+package "Profiling & Analysis" {
+  usecase "Profile a notebook" as UC1
+  usecase "Explore a profile" as UC2
+  usecase "Assess notebook quality" as UC3
+}
+
+package "Comparison & Exploration" {
+  usecase "Compare multiple notebooks" as UC4
+  usecase "Filter notebooks by properties" as UC5
+}
+
+package "Knowledge Management" {
+  usecase "Resolve profiling inconsistencies" as UC6
+  usecase "Visualize knowledge acquisition metrics" as UC7 #line.dashed
+  usecase "Analyze notebook variability" as UC8 #line.dashed
+}
+
+DS --> UC1
+DS --> UC2
+DS --> UC3
+DS --> UC4
+DS --> UC5
+DS --> UC6
+
+KM --> UC6
+KM --> UC7
+KM --> UC8
+
+note right of UC1
+  Extract profiles from notebook code
+  using multiple profiling functions (e.g., parser, LLM).
+end note
+
+note right of UC2
+  Navigate profiles at different abstraction levels,
+  such as CRISP-DM phases or custom groupings.
+end note
+
+note right of UC3
+  Assess coding best practices,
+  ML pipeline design and evaluation strategies.
+end note
+
+note bottom of UC4
+  Compare notebooks to detect common
+  patterns, workflows, or anomalies.
+end note
+
+note bottom of UC5
+  Filter notebooks by algorithm,
+  structure, or profiling features.
+end note
+
+note left of UC6
+  Handle conflicts between profiling outputs,
+  suggest or validate reference categories.
+end note
+
+note left of UC7
+  Track supported libraries, function coverage,
+  and inconsistency rates.
+end note
+
+note left of UC8
+  Study diversity in analyzed notebooks,
+  such as pipeline types or ML strategies.
+end note
+
+@enduml
+
+
+
+@startuml
+'#line.dashed
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor DataScientist as DS
+actor KnowledgeMaintainer as KM
+
+package "Profiling & Analysis" {
+  usecase "Profile a notebook" as UC1
+  usecase "Explore a profile" as UC2
+  usecase "Assess notebook quality" as UC3
+}
+
+package "Comparison & Exploration" {
+  usecase "Compare multiple notebooks" as UC4
+  usecase "Filter notebooks by properties" as UC5
+}
+
+package "Knowledge Management" {
+  usecase "Resolve profiling inconsistencies" as UC6
+  usecase "Visualize knowledge acquisition metrics" as UC7
+  usecase "Analyze notebook variability" as UC8
+}
+
+DS --> UC1
+DS --> UC2
+DS --> UC3
+DS --> UC4
+DS --> UC5
+DS --> UC6
+
+KM --> UC6
+KM --> UC7
+KM --> UC8
+
+note right of UC1
+  Extract profiles from notebook code
+  using multiple profiling functions (e.g., parser, LLM).
+end note
+
+note right of UC2
+  Navigate profiles at different abstraction levels,
+  such as CRISP-DM phases or custom groupings.
+end note
+
+note right of UC3
+  Assess coding best practices,
+  ML pipeline design and evaluation strategies.
+end note
+
+note bottom of UC4
+  Compare notebooks to detect common
+  patterns, workflows, or anomalies.
+end note
+
+note bottom of UC5
+  Filter notebooks by algorithm,
+  structure, or profiling features.
+end note
+
+note left of UC6
+  Handle conflicts between profiling outputs,
+  suggest or validate reference categories.
+end note
+
+note left of UC7
+  Track supported libraries, function coverage,
+  and inconsistency rates.
+end note
+
+note left of UC8
+  Study diversity in analyzed notebooks,
+  such as pipeline types or ML strategies.
+end note
+
+@enduml
+
+
+
+
+
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor DataScientist as DS
+actor KnowledgeMaintainer as KM
+
+rectangle "Notebook Profiling System" {
+
+  usecase "Profile a notebook" as UC1
+  usecase "Explore a profile" as UC2
+  usecase "Assess notebook quality" as UC3
+  usecase "Compare multiple notebooks" as UC4
+  usecase "Filter notebooks by properties" as UC5
+  usecase "Resolve profiling inconsistencies" as UC6
+  usecase "Visualize knowledge acquisition metrics" as UC7
+  usecase "Analyze notebook variability" as UC8
+
+  DS --> UC1
+  DS --> UC2
+  DS --> UC3
+  DS --> UC4
+  DS --> UC5
+  DS --> UC6
+
+  KM --> UC6
+  KM --> UC7
+  KM --> UC8
+}
+
+note right of UC1
+  Extracts a profile from code instructions
+  using multiple taxonomies and profiling
+  functions (parser, LLMs, etc.).
+end note
+
+note right of UC2
+  Navigate and visualize profiles at
+  various abstraction levels (e.g., CRISP-DM).
+end note
+
+note right of UC3
+  Includes code quality, pipeline coherence,
+  ML design patterns, and evaluation strategy.
+end note
+
+note bottom of UC4
+  Identify similarities or differences
+  across notebooks (e.g., patterns, structure).
+end note
+
+note bottom of UC5
+  Query notebooks based on ML usage:
+  algorithms, strategies, or components.
+end note
+
+note left of UC6
+  Manual or semi-automatic resolution
+  of conflicts between profiling outputs.
+end note
+
+note left of UC7
+  Track progress of profiling knowledge:
+  number of supported libraries/functions,
+  inconsistency rates, etc.
+end note
+
+note left of UC8
+  Identify diversity in notebook usage
+  (e.g., ML models, patterns, workflows).
+end note
+
+@enduml
+
+
+
+
+
+
+
+
+@startuml
+left to right direction
+
+
+'skinparam actorStyle awesome
+"Profiling System"<<System>> as user #blue
+"Colombus Admin" as Admin
+"FATES Operator" as FATESOPS
+"Administation System"<<System>> as AdministrationSystem #blue
+rectangle ColombusLLM {
+ usecase "Ask for code Profile according to a taxonomy" as (Use) #Lavender
+ usecase "Add Information \n e.g., taxonomies and AST mappings " as (AddInfo)
+ usecase "Check FATES properties evolution" as (checkFatesProperties) #lightgreen
+ usecase "Consult FATES properties" as (consultFATESProperties) #lightgreen
+}
+
+rectangle ProfilingSystem {
+ usecase "Ask for code Profile according to a taxonomy" as (Use) #Lavender
+ usecase "Add Information \n e.g., taxonomies and AST mappings " as (AddInfo)
+ usecase "Check FATES properties evolution" as (checkFatesProperties) #lightgreen
+ usecase "Consult FATES properties" as (consultFATESProperties) #lightgreen
+}
+
+Admin --> (AddInfo)
+AdministrationSystem --> (AddInfo)
+FATESOPS --> (consultFATESProperties)
+checkFatesProperties .> (consultFATESProperties) :extends
+AdministrationSystem -> (checkFatesProperties)
+user --> (Use)
+FATESOPS --|> Admin
+
+note "Muhammad \n //Juliette//" as noteM #lavender
+(Use) .. noteM
+note "Bence" as noteF #lightgreen
+(consultFATESProperties) .. noteF
+(checkFatesProperties) .. noteF
+
+@enduml
