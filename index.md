@@ -20,7 +20,7 @@ The PROFIL project, funded by the French ANR agency, aims to characterize ML wor
 Plus d'informations 
 - [`index.md`](index.md) — Home
 - [Insights](docs/Insights) —
-- [Terminology](docs/terminology.md) — Terminology used in the project
+- [Terminology](docs/Terminology.md) — Terminology used in the project
 - 
 ## Partners
 * Inria Center of the University of Lille, CRIStAL lab, EVREF team
