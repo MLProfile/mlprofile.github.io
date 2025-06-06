@@ -5,8 +5,11 @@ title:  Formalization
 ## Profiling a Program
 Profiling a program with respect to a given taxonomy consists of assigning exactly one category from the taxonomy to each instruction in the program.\\
 Let:
-\begin{itemize}[label=--]
-\item \( p = \langle i_1, i_2, \ldots, i_n \rangle \) be a program, represented as a finite sequence of instructions extracted from a notebook,
-\item \(  \mathcal{T}  \) be a taxonomy, i.e., a finite set of categories \( \{t_1, t_2, \ldots, t_t, \texttt{undefined}\} \),
-\item \( \text{Instr}(p) = \{ i_1, i_2, \ldots, i_n \} \) be the set of instructions in program \( p \).
-\end{itemize}
+
+\( p = \langle i_1, i_2, \ldots, i_n \rangle \) be a program, represented as a finite sequence of instructions extracted from a notebook,
+
+ \(  \mathcal{T}  \) be a taxonomy, i.e., a finite set of categories \( \{t_1, t_2, \ldots, t_t, \texttt{undefined}\} \),
+
+ \( \text{Instr}(p) = \{ i_1, i_2, \ldots, i_n \} \) be the set of instructions in program \( p \).
+
+
