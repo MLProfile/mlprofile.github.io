@@ -19,7 +19,7 @@ The PROFIL project, funded by the French ANR agency, aims to characterize ML wor
 
 Plus d'informations 
 - [`index.md`](index.md) — Home
-- [Insights](docs/insights.md) —
+- [Insights](docs/Insights) —
 - [Terminology](docs/terminology.md) — Terminology used in the project
 - 
 ## Partners

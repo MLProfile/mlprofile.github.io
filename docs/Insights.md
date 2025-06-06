@@ -43,7 +43,7 @@ Each subsystem supports both daily data science tasks and long-term system impro
 Note: The Knowledge Management features are currently under development and are part of our ongoing research efforts.
 
 ## Terminology and Models
-The terminology used in this project is defined in the [Terminology](./terminology.md) page.
+The terminology used in this project is defined in the [Terminology](./Terminology.md) page.
 
 The metamodel for the MLProfile format is still under development.
 It is currently being implemented in the codebase, and the first version of the metamodel is available in the repository of [deliverable L0.2](https://github.com/NicolasLacroix/profil-platform-poc).

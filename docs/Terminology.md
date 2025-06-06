@@ -32,4 +32,4 @@ A shared, structured data model that defines the schema for MLProfiles. It ensur
 **Taxonomy**: A defined set of categories used to semantically categorize code instructions according to their purpose or behavior in an ML pipeline.
 
 
-Formalized definitions of these terms are available in [Formalization](docs/Formalization.md).
+Formalized definitions of these terms are available in [Formalization](./Formalization.md).
