@@ -38,15 +38,15 @@ The following use case diagram illustrates the main functionalities of the syste
    - _Analyze notebook variability_: Study the diversity of analyzed notebooks to support new feature discovery.
 
 
-Each subsystem supports daily data science tasks and long-term system improvement, balancing usability and extensibility.
+Each subsystem supports both daily data science tasks and long-term system improvements, striking a balance between usability and extensibility.
 
-Note: The Knowledge Management features are currently being developed and are part of our active research efforts.
+Note: The Knowledge Management features are currently under development and are part of our ongoing research efforts.
 
 ## Terminology and Models
-The terminology used in this project is defined in the [Terminology](docs/terminology.md) page.
+The terminology used in this project is defined in the [Terminology](./terminology.md) page.
 
 The metamodel for the MLProfile format is still under development.
-It is currently being implemented in the codebase, and first versions of the metamodel are available in the repository of [deliverable L0.2](https://github.com/NicolasLacroix/profil-platform-poc).
+It is currently being implemented in the codebase, and the first version of the metamodel is available in the repository of [deliverable L0.2](https://github.com/NicolasLacroix/profil-platform-poc).
 
 ## Experimental Toolchain for Profiling and Evaluation
 We developed a [proof-of-concept implementation](https://github.com/NicolasLacroix/profil-platform-poc) to tackle the core challenges identified—such as 
