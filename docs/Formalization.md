@@ -1,11 +1,7 @@
 ---
 title:  Formalization
 ---
-$$
-\\int_0^\\infty e^{-x^2} dx = \\frac{\\sqrt{\\pi}}{2}
-$$
-
-\\( E = mc^2 \\)
+# Formalization
 
 ## Profiling a Program
 Profiling a program with respect to a given taxonomy consists of assigning exactly one category from the taxonomy to each instruction in the program.\\
