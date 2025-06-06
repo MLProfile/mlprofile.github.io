@@ -25,12 +25,24 @@ MathJax is included for rendering math expressions.
 - Inline math:  
   Write `\\( E = mc^2 \\)` → \\( E = mc^2 \\)
 
+\\( E = mc^2 \\)
+
+$$ 
+E = mc^2 
+$$
+
 - Block math:  
   ```markdown
   $$
   \\int_0^\\infty e^{-x^2} dx = \\frac{\\sqrt{\\pi}}{2}
   $$
   ```
+  
+  $$
+  \\int_0^\\infty e^{-x^2} dx = \\frac{\\sqrt{\\pi}}{2}
+  $$
+
+ \\(  \\int_0^\\infty e^{-x^2} dx = \\frac{\\sqrt{\\pi}}{2} \\)
 
 ## ➕ How to Add a New Page
 
