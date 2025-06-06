@@ -1,8 +1,7 @@
 ---
-title:  Project Overview
+title:  Insights
 ---
-
-## Project Overview: Profiling and Evaluation of Notebooks
+# Insights: Notebook Profiling and Evaluation
 
 
 ## Objectives
@@ -46,8 +45,8 @@ Note: The Knowledge Management features are currently being developed and are pa
 ## Terminology and Models
 The terminology used in this project is defined in the [Terminology](terminology.md) page.
 
-The metamodel for the MLProfile format is encore en développement and will be documented in the future. 
-It is currently being implemented in the codebase, and first versions of the metamodel are available in the repository of deliverable L0.2.
+The metamodel for the MLProfile format is still under development.
+It is currently being implemented in the codebase, and first versions of the metamodel are available in the repository of [deliverable L0.2](https://github.com/NicolasLacroix/profil-platform-poc).
 
 ## Experimental Toolchain for Profiling and Evaluation
 We developed a [proof-of-concept implementation](https://github.com/NicolasLacroix/profil-platform-poc) to tackle the core challenges identified—such as 

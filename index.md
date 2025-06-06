@@ -17,9 +17,14 @@ Effective reuse of prior workflows is essential, but analyzing variations betwee
 
 The PROFIL project, funded by the French ANR agency, aims to characterize ML workflows embedded in codes, their operationalization, reproduction, and finally their reuse by third parties. For this purpose, we adopt a model driven engineering approach to abstract the content of machine learning notebooks written in python, to build the profile of the ML workflow and to identify inconsistencies in ML workflow.
 
+Plus d'informations 
+- [`index.md`](index.md) — Home
+- [Insights](docs/insights.md) —
+- [Terminology](docs/terminology.md) — Terminology used in the project
+- 
 ## Partners
 * Inria Center of the University of Lille, CRIStAL lab, EVREF team
-* Cnrs, I3S lab, SPARKS team
+* CNRS, I3S lab, SPARKS team
 * Inria Sophia Antipolis, MAASAI team
 
 [À propos](about.md) | [Publications](publications.md) | [Contact](contact.md)

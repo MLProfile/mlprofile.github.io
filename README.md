@@ -2,6 +2,7 @@
 
 This repository hosts the website for **Profile**, a research initiative, built with [Jekyll](https://jekyllrb.com/) and deployed via [GitHub Pages](https://pages.github.com/) using the official **Cayman theme**.
 
+Go [there](https://mlprofile.github.io/) to see the live site.
 ## Structure
 
 This site is built with:

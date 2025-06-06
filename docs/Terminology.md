@@ -1,3 +1,6 @@
+---
+title:  Terminology
+---
 # Terminology
 
 
@@ -9,7 +12,7 @@
 
 **MLProfile**: The structured output format representing a profiled notebook. It is targeted by profiling functions (e.g., LLMs, parsers). MLProfiles are encoded in JSON, conforming to the MLProfile metamodel.
 
-**MLProfile-MM (Metamodel)**  
+**MLProfile-MM (Metamodel)**:  
 A shared, structured data model that defines the schema for MLProfiles. It ensures interoperability and consistency across different profiling functions.
 
 **Pattern**: A reusable template that defines a specific profile structure. Patterns can be used to filter and compare profiles across notebooks.
@@ -29,3 +32,4 @@ A shared, structured data model that defines the schema for MLProfiles. It ensur
 **Taxonomy**: A defined set of categories used to semantically categorize code instructions according to their purpose or behavior in an ML pipeline.
 
 
+Formalized definitions of these terms are available in [Formalization](docs/Formalization.md).
